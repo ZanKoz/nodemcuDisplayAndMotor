@@ -5,6 +5,8 @@
 #include "Free_Fonts.h" // Include the header file attached to this sketch
 #include "SPI.h"
 #include "TFT_eSPI.h"
+/**COmments INIT Check
+*/
 //Module Vars
 String ModuleID = String(ESP.getChipId());
 String ModuleID2 = (ModuleID + "2");
