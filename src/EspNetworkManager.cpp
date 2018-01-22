@@ -14,7 +14,7 @@ void EspNetworkManager::begin(){
   	Serial.println(" -"+ReadEeprom(4));
     Serial.println(" -"+ReadEeprom(5));
     Serial.println(" -"+ReadEeprom(6));
-    server =  ESP8266WebServer(80);
+    ESP8266WebServer server(80);
     local_IP= IPAddress(192,168,4,22);
     gateway=IPAddress (192, 168, 4, 9);
     subnet=IPAddress (255, 255, 255, 0);
